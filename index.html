@@ -5,10 +5,39 @@
     <title>Joseph Boothby</title>
 
     <link rel="stylesheet" href="style.css">
+    <!-- imports for bootstrap, jQuery, React -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready( function(){
+            $("#target").addClass("text-primary");
+        });
+    </script>
+
 </head>
 <body>
-    <div>
-        <h1>Website under construction</h1>
+    <div class="container-fluid">
+        <h1 id="target">Website under construction</h1>
+        <hr>
+        <h2>Test Items</h2>
+        <p>p1</p>
+        <div class="row">
+            <div class="col-xs-2">
+                <ol>
+                    <li>ol1</li>
+                    <li>ol2</li>
+                    <li>ol3</li>
+                </ol>
+            </div>
+            <div class="col-xs-2">
+                <ul>
+                    <li>ul1</li>
+                    <li>ul2</li>
+                    <li>ul3</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
